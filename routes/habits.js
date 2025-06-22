@@ -1,5 +1,5 @@
 const express = require('express');
-const Habit = require('/models/Habit');
+const Habit = require('../models/Habit');
 const router = express.Router();
 
 // POST /api/habits - Create habit
